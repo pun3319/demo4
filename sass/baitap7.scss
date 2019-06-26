@@ -1,0 +1,149 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.big-header{
+    background: #555555;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    .header{
+        width: 1200px;
+        padding: 20px;
+        .name{
+            a{
+                font-size: 30px;
+                color: white;
+            }
+            span{
+                color: rgb(76, 152, 201);
+            }
+        }
+        .navbar{
+            width: 600px;
+            ul{
+                li{
+                    a{
+                        font-size: 20px;
+                        color: white;
+                        span{
+                            color:rgb(76, 152, 201);
+                        }
+                        &:hover{
+                            color:rgb(76, 152, 201);
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+.background{
+    margin-top: 74px;
+    background: url(http://themes.iki-bir.com/creatink/style/images/art/slider-bg19.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center center;
+    background-size: cover;
+    .big-content{
+        margin: 0px 0 40px 0;
+        h1{
+            margin-top: 140px;
+            font-size: 50px;
+            animation-name: phai;
+            animation-duration: 4s;
+            animation-timing-function: linear;
+            opacity: 1;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+            
+        }
+    }
+    .mini-content{
+        font-size: 30px;
+        animation-name: trai;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    .big-click{
+        margin: 40px;
+        .mini-click{
+            width: 180px;
+            height: 40px;
+            background: rgb(76, 152, 201);
+            align-items: center;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            color: white;
+            animation-name: top;
+            animation-duration: 2s;
+            animation-delay: 4s;
+            opacity: 0;
+            animation-fill-mode: forwards;
+            p{
+                padding: 5px;
+            }
+        }
+    }
+}
+.icon-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    i{
+        font-size: 40px;
+        color: black;
+    }
+}
+@keyframes phai{
+    0%{
+        transform: translateX(-300px);
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(300px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(-300px);
+        opacity: 1;
+    }
+}
+@keyframes trai{
+    from{
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes top{
+    from{
+        transform: translatey(30px);
+        opacity: 0;
+    }
+    to{
+        transform: translatey(0px);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+/* cách đặt biến css
+$main-color:aqua; */ 

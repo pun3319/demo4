@@ -1,0 +1,5 @@
+.container .form {
+  background: gray;
+  width: 600px; }
+  .container .form input {
+    padding: 10px; }

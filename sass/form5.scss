@@ -1,0 +1,158 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+.center-co{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.big{
+        background: url("https://demo.w3layouts.com/demos_new/template_demo/06-03-2019/triple_forms-demo_Free/1611343419/web/images/b4.jpg");
+        background-size: cover;
+        background-position: center;
+    .container{
+        .title{
+            h1{
+                font-size: 35px;
+                font-weight: bold;
+                text-align: center;
+                margin: 30px 30px 80px 30px;
+                color: white;
+            }
+        }
+        .content{
+            .left{
+                img{
+                    width: 266px;
+                    height: 371px;
+                }
+            }
+            .mid{
+                a{
+                    .icon{
+                        background: white;
+                        width: 230px;
+                        height: 124px;
+                        border-right: #CDCDB4 1px solid;
+                        i{
+                            font-size: 30px;
+                            color: black;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            color: black;
+                        }
+                    }
+                    .icon-login{
+                        background:#00ad45 ;
+                        width: 230px;
+                        height: 124px;
+                        border-right: #CDCDB4 1px solid;
+                        i{
+                            font-size: 30px;
+                            color: white;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            color: white;
+                        }
+                    }
+                    &:focus{
+                        .icon{
+                            background: #00ad45;
+                            border-right: black 1px solid;
+                            i{
+                                color: white;
+                                
+                            }
+                            p{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            .right{
+                width: 570px;
+                height: 371px;
+                background: white;
+                text-align: center;
+                h1{
+                    margin: 40px;
+                }
+                .user{
+                    margin-bottom: 20px;
+                    position: relative;
+                    input{
+                        padding: 15px;
+                        background: #CDCDB4;
+                        width: 500px;
+                        padding-left: 40px;
+                    }
+                    i{
+                        position: absolute;
+                        transform: translate(100%,90%);
+                        
+                    }
+                    input::-webkit-input-placeholder{
+                        margin-left: 30px;
+                    }
+                }
+                .pass{
+                    position: relative;
+                    input{
+                        padding: 15px;
+                        background: #CDCDB4;
+                        width: 500px;
+                        padding-left: 40px;
+                    }
+                    input::-webkit-input-placeholder{
+                        margin-left: 30px;
+                    }
+                    i{
+                        position: absolute;
+                        transform: translate(100%,90%);
+                        
+                    }
+                }
+                .button{
+                    margin-top: 30px;
+                    button{
+                        padding: 15px;
+                        width: 500px;
+                        background: #00ad45;
+                        cursor: pointer;
+                        color: white;
+                        font-weight: bold;
+                    }
+                    button:hover{
+                        background: #00ad46;
+                    }
+                }
+                .for{
+                    margin-top: 50px;
+                    margin-bottom: 40px;
+                    a{
+                        color: #8B8B7A;
+                    }
+                }
+            }
+        }
+        .foot{
+            margin-top: 100px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: white;
+            a{
+                color: white;
+            }
+        }
+    }
+}

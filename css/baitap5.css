@@ -1,0 +1,72 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.header {
+  padding: 20px; }
+  .header .container h1 {
+    padding: 20px; }
+  .header .container:after {
+    content: '';
+    height: 2px;
+    width: 100px;
+    background: black;
+    border-radius: 50%; }
+  .header .container:before {
+    content: '';
+    height: 2px;
+    width: 100px;
+    background: black;
+    border-radius: 50%; }
+
+.content {
+  padding: 80px; }
+  .content i {
+    padding: 10px;
+    border: 1px #3399FF solid;
+    color: #3399FF;
+    font-size: 20px;
+    margin-bottom: 20px; }
+  .content .child {
+    margin-right: 20px; }
+    .content .child:last-child {
+      margin-right: none; }
+    .content .child h3 {
+      position: relative;
+      padding-bottom: 10px; }
+      .content .child h3:after {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        content: '';
+        height: 3px;
+        width: 80px;
+        background: black;
+        border-radius: 80%; }
+    .content .child p {
+      margin: 10px 0 20px 0; }
+    .content .child a p {
+      width: 120px;
+      padding: 10px;
+      border: 1px black solid;
+      color: black; }
+
+.the-last {
+  background: #444444; }
+  .the-last .footer {
+    color: white; }
+    .the-last .footer h1 {
+      font-size: 40px;
+      padding: 50px;
+      position: relative; }
+      .the-last .footer h1:after {
+        content: '';
+        height: 2px;
+        width: 50px;
+        background: white;
+        position: absolute;
+        bottom: 40px;
+        text-align: center; }
+    .the-last .footer p {
+      margin-bottom: 50px; }

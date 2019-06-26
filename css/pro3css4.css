@@ -1,0 +1,36 @@
+.container .big-img .img {
+  width: 1200px; }
+  .container .big-img .img .row-img .mini-img {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    overflow: hidden; }
+    .container .big-img .img .row-img .mini-img:hover .caption {
+      display: block; }
+    .container .big-img .img .row-img .mini-img:hover a:after {
+      display: block; }
+    .container .big-img .img .row-img .mini-img:hover img {
+      transform: scale(1.2);
+      transition: all 0.5s; }
+    .container .big-img .img .row-img .mini-img a img {
+      padding: 0;
+      margin: 0; }
+    .container .big-img .img .row-img .mini-img a:after {
+      content: '';
+      position: absolute;
+      width: 400px;
+      height: 300px;
+      bottom: 0;
+      left: 0;
+      background: black;
+      opacity: 0.5;
+      display: none; }
+    .container .big-img .img .row-img .mini-img .caption {
+      width: 400px;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      display: none; }

@@ -1,0 +1,143 @@
+body {
+  background: url("https://demo.w3layouts.com/demos_new/template_demo/07-01-2019/pet_found_form-demo_Free/1599140175/web/images/b1.jpg");
+  background-size: cover;
+}
+
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0 40px 0;
+}
+
+body .header h1 {
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  font-size: 49px;
+  letter-spacing: 5px;
+  text-shadow: 2px 3px rgba(0, 0, 0, 0.42);
+}
+
+body .big-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .big-form .mini-form {
+  width: 980px;
+  height: 580px;
+  background: rgba(0, 0, 0, 0.44);
+  padding: 30px;
+  border: 6px #000 double;
+}
+
+body .big-form .mini-form .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .big-form .mini-form .form .child {
+  width: 31%;
+}
+
+body .big-form .mini-form .form .child form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .big-form .mini-form .form .child form input[type="text"], body .big-form .mini-form .form .child form input[type="number"] {
+  padding: 15px 0;
+  border-bottom: 1px solid white;
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+body .big-form .mini-form .form .child form input::-webkit-input-placeholder {
+  color: white;
+  letter-spacing: 2px;
+}
+
+body .big-form .mini-form .form .child form label {
+  margin: 20px 0;
+  color: white;
+  font-size: 15px;
+}
+
+body .big-form .mini-form .form .child form label input[type="radio"] {
+  margin-top: 10px;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+body .big-form .mini-form .comment {
+  margin-top: 30px;
+}
+
+body .big-form .mini-form .comment input {
+  border-bottom: white 2px solid;
+  width: 910px;
+  padding-bottom: 100px;
+}
+
+body .big-form .mini-form .comment input::-webkit-input-placeholder {
+  color: white;
+  letter-spacing: 2px;
+  padding-top: none;
+  font-size: 15px;
+}
+
+body .big-form .mini-form input[type="file"] {
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+}
+
+body .big-form .mini-form .button {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+body .big-form .mini-form .button button {
+  width: 910px;
+  padding: 10px;
+  background: white;
+  font-weight: bold;
+}
+
+body .foot {
+  margin: 15px 0;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+body .foot p {
+  color: white;
+}
+
+body .foot p a {
+  color: black;
+}
+/*# sourceMappingURL=form8.css.map */

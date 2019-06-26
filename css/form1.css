@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: gray; }
+  .container .title {
+    background: white;
+    width: 350px;
+    position: relative; }
+    .container .title h1 {
+      margin: 80px 50px 50px 50px;
+      text-align: center;
+      color: gray;
+      font-family: 'Montserrat', sans-serif; }
+    .container .title form {
+      display: flex;
+      flex-direction: column; }
+      .container .title form input[type="text"], .container .title form input[type="password"] {
+        padding: 15px;
+        border: 1px #999999 solid;
+        padding: 20px;
+        margin: 10px 40px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 5px; }
+      .container .title form input[type="radio"] {
+        margin-left: 40px;
+        margin-bottom: 20px;
+        margin-top: 10px; }
+      .container .title form .gender label input {
+        position: relative; }
+        .container .title form .gender label input:after {
+          content: '';
+          width: 100%;
+          height: 100%;
+          left: 0;
+          bottom: 0;
+          position: absolute;
+          background: #3399CC;
+          border-radius: 50%;
+          z-index: 0; }
+        .container .title form .gender label input:before {
+          content: '';
+          width: 50%;
+          height: 50%;
+          left: 50%;
+          bottom: 50%;
+          position: absolute;
+          transform: translate(-50%, -50%) scale(0);
+          background: white;
+          border-radius: 50%;
+          z-index: 1;
+          opacity: 0;
+          transition: all 0.3s; }
+        .container .title form .gender label input:checked:before {
+          opacity: 1;
+          transform: translate(-50%, 50%) scale(1); }
+      .container .title form .language {
+        margin-left: 40px;
+        margin-bottom: 30px;
+        margin-top: 10px; }
+        .container .title form .language label input {
+          position: relative; }
+          .container .title form .language label input:after {
+            content: '';
+            top: 50%;
+            left: 50%;
+            background: greenyellow;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transform: translate(-50%, -50%);
+            z-index: 0; }
+          .container .title form .language label input:before {
+            content: '';
+            width: 0;
+            height: 50%;
+            left: 0;
+            bottom: 50%;
+            position: absolute;
+            border-left: #3399CC solid 3px;
+            border-bottom: #3399CC solid 4px;
+            z-index: 1;
+            opacity: 0;
+            transition: all 0.3s;
+            transform: translate(-40%, -30%) rotate(-45deg);
+            transform-origin: 100% 0%; }
+          .container .title form .language label input:checked:before {
+            width: 80%;
+            opacity: 1; }
+      .container .title form button {
+        padding: 10px;
+        text-align: center;
+        background: #3399CC;
+        margin: 0 40px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 5px;
+        color: white;
+        font-weight: bold; }
+      .container .title form .reg {
+        margin: 50px 0px 20px 0;
+        text-align: center;
+        background: #FFFFFF; }
+        .container .title form .reg a {
+          color: #999999; }
+    .container .title .icon {
+      width: 100px;
+      height: 100px;
+      background: #3399CC;
+      border-radius: 50%;
+      text-align: center;
+      padding: 30px;
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translate(-50%, -50%); }
+      .container .title .icon i {
+        color: white;
+        font-size: 40px; }

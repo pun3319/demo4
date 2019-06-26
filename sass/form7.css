@@ -1,0 +1,211 @@
+.big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("https://demo.w3layouts.com/demos_new/template_demo/14-12-2018/home_loan_application_form-demo_Free/301389745/web/images/1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.big .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.big .container .title {
+  margin: 50px;
+}
+
+.big .container .title h1 {
+  font-size: 3.5em;
+  font-weight: 600;
+  color: white;
+  font-family: 'Poiret One', cursive;
+}
+
+.big .container .form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  z-index: 0;
+  padding: 50px;
+}
+
+.big .container .form form label {
+  color: white;
+  margin: 5px;
+}
+
+.big .container .form form label input[type="text"], .big .container .form form label input[type="number"] {
+  width: 400px;
+  padding: 15px 20px;
+  background: black;
+  color: white;
+  float: right;
+  border: 1px #00FFCC solid;
+}
+
+.big .container .form form label input::-webkit-input-placeholder {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.big .container .form form label select {
+  width: 400px;
+  padding: 15px 20px;
+  background: black;
+  color: white;
+  float: right;
+  border: 1px #00FFCC solid;
+}
+
+.big .container .form form label select:focus {
+  color: #00FFCC;
+}
+
+.big .container .form form label select::-webkit-input-placeholder {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.big .container .form form:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.2;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.big .container .form form .add label {
+  margin-top: 10px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.big .container .form form .add label .mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 130px;
+}
+
+.big .container .form form .add label .mini input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.big .container .form form .foot {
+  margin: 20px 0;
+}
+
+.big .container .form form .foot p {
+  color: white;
+  font-weight: bold;
+}
+
+.big .container .form form .radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.big .container .form form .radio input {
+  position: relative;
+}
+
+.big .container .form form .radio input:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #00FFCC;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.big .container .form form .radio input:before {
+  content: '';
+  width: 50%;
+  height: 50%;
+  background: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.big .container .form form .radio input:checked:before {
+  z-index: 100;
+}
+
+.big .container .form form .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.big .container .form form .button button {
+  padding: 15px 28px;
+  background: #00FFCC;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.big .container .footer {
+  margin: 20px 0 40px 0;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.big .container .footer p {
+  color: white;
+}
+
+.big .container .footer p a {
+  color: #00FFFF;
+}
+/*# sourceMappingURL=form7.css.map */

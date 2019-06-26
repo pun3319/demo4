@@ -1,0 +1,72 @@
+.big {
+  position: relative; }
+  .big .container {
+    display: flex; }
+    .big .container .left .container-left {
+      padding-left: 60px;
+      width: 810px;
+      height: 660px;
+      background: url("https://demo.w3layouts.com/demos_new/template_demo/18-03-2019/gaze_signup-login_form-demo_Free/1587213728/web/images/b1.jpg"); }
+      .big .container .left .container-left .title h2 {
+        padding-top: 80px;
+        margin-bottom: 40px;
+        color: white; }
+      .big .container .left .container-left .form {
+        display: flex;
+        flex-direction: column; }
+        .big .container .left .container-left .form input {
+          padding: 15px;
+          background: #EEEEEE;
+          margin-bottom: 30px;
+          width: 400px;
+          border-bottom: 3px #00a1ff solid; }
+      .big .container .left .container-left .bottom {
+        display: flex;
+        width: 400px;
+        justify-content: space-between;
+        color: white;
+        font-size: 14px; }
+        .big .container .left .container-left .bottom a {
+          color: white;
+          font-size: 14px; }
+      .big .container .left .container-left .button {
+        margin: 40px 0;
+        width: 80px;
+        text-align: center;
+        padding: 10px;
+        background: #00a1ff; }
+        .big .container .left .container-left .button button {
+          color: white; }
+      .big .container .left .container-left .foot {
+        color: white;
+        font-size: 14px; }
+        .big .container .left .container-left .foot a {
+          color: white;
+          font-size: 14px; }
+    .big .container .right .container-right {
+      background: #00a1ff;
+      height: 660px;
+      width: 550px; }
+      .big .container .right .container-right .content {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .big .container .right .container-right .content h1 {
+          text-shadow: 2px;
+          padding-top: 200px;
+          width: 400px;
+          font-size: 40px;
+          color: white;
+          font-family: 'Source Sans Pro', sans-serif;
+          font-weight: bold; }
+  .big .footer {
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%); }
+    .big .footer p {
+      color: white; }
+      .big .footer p a {
+        color: #ff5e00; }
+        .big .footer p a:hover {
+          color: white; }

@@ -1,0 +1,62 @@
+.container{
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        padding: 40px 40px 20px 40px;
+        background: #CCCCCC;
+        .user{
+            margin-bottom: 15px;
+            background: white;
+            input{
+                padding: 10px;
+            }
+            position: relative;
+            i{
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translate(-50%,-50%);
+            }
+        }
+        .pass{
+            margin-bottom: 15px;
+            background: white;
+            input{
+                padding: 10px;
+            }
+            input::-webkit-input-placeholder{
+                transform: translateY(-5px);
+            }
+            position: relative;
+            i{
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translate(-50%,-50%);
+            }
+        }
+        button{
+            background: #00CCCC;
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+            &:hover{
+                background: rebeccapurple;
+            }
+            cursor: pointer;
+        }
+        a{
+            color: #666666;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+        
+    }
+    background:url("https://i.pinimg.com/originals/cb/c2/2c/cbc22ca5a3d7568a742262639a9f6b3f.jpg");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

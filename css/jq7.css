@@ -1,0 +1,102 @@
+.container .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px; }
+  .container .title p {
+    color: #000;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px; }
+  .container .title .big {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .container .title .big .icon {
+      display: flex;
+      align-items: center; }
+      .container .title .big .icon:after {
+        content: '';
+        height: 1px;
+        width: 80px;
+        background: #000;
+        position: absolute;
+        left: 570px; }
+      .container .title .big .icon:before {
+        content: '';
+        height: 1px;
+        width: 80px;
+        background: #000;
+        position: absolute;
+        right: 580px; }
+      .container .title .big .icon i {
+        transform: rotate(45deg);
+        margin: 0 2.5px;
+        font-size: 10px;
+        color: #FF5722; }
+      .container .title .big .icon .mid i {
+        font-size: 14px;
+        color: #1accfd; }
+
+.container .big-sli .left {
+  cursor: pointer;
+  position: absolute;
+  left: 50px;
+  top: 55%; }
+
+.container .big-sli .right {
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  top: 55%; }
+
+.container .big-sli .sli {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px; }
+  .container .big-sli .sli .mini {
+    width: 84%;
+    display: flex;
+    overflow: hidden; }
+    .container .big-sli .sli .mini .con {
+      width: 31%;
+      padding: 30px;
+      border: solid black 1px;
+      margin: 20px;
+      transition: all 1s ease; }
+      .container .big-sli .sli .mini .con .img {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .container .big-sli .sli .mini .con p {
+        margin-top: 16px;
+        font-size: 22px; }
+      .container .big-sli .sli .mini .con h6 {
+        font-size: 22px;
+        margin-top: 16px;
+        color: #FF5722; }
+      .container .big-sli .sli .mini .con h5 {
+        margin-top: 16px;
+        padding: 10px;
+        width: 280px;
+        border: solid black 1px;
+        font-size: 16px;
+        font-weight: 200; }
+      .container .big-sli .sli .mini .con .but {
+        margin-top: 16px;
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .container .big-sli .sli .mini .con .but button {
+          cursor: pointer;
+          padding: 15px;
+          width: 280px;
+          background: #1accfd;
+          color: #fff; }
+          .container .big-sli .sli .mini .con .but button:hover {
+            background: darkslategrey;
+            transition: all 0.4s ease-in; }

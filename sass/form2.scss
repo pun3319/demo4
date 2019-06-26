@@ -1,0 +1,125 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxmAvBW-sSPYRQMZMsUtjAMVkX7pKRfxmHtl_ylNyBKmNEcTPL");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    .title{
+        h1{
+            margin: 30px;
+            color: white;
+        }
+    }
+    .form{
+        display: flex;  
+        .mini-form{
+            position: relative;
+            width: 500px;
+            h2{
+                text-align: center;
+                margin: 20px;
+                z-index: 200;
+                position: relative;
+            }
+            margin: 20px;
+            padding: 20px;
+            color: white;
+            &:after{
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background: black;
+                opacity: 0.2;
+                top: 0;
+                left: 0;
+                z-index: 100;
+            }
+            input{
+                width: 460px;
+                position: relative;
+                z-index: 200;
+                border: 1px white solid;
+                -moz-border-radius: 10px;
+                -webkit-border-radius: 5px;
+                padding: 10px;
+                margin-bottom: 20px;
+                &:focus{
+                    input::-webkit-input-placeholder{
+                        color: transparent;
+                    }
+
+                }
+            }
+            input::-webkit-input-placeholder{
+                color: white;
+            }
+            
+            .user{
+                position: relative;
+                i{
+                    color: white;
+                    position: absolute;
+                    z-index: 200;
+                    top: 50%;
+                    right: 10px;
+                    transform: translateY(-110%);
+                }
+            }
+            .pass{
+                position: relative;
+                i{
+                    color: white;
+                    position: absolute;
+                    z-index: 200;
+                    top: 50%;
+                    right: 10px;
+                    transform: translateY(-110%);
+                }
+            }
+            .phone{
+                position: relative;
+                i{
+                    color: white;
+                    position: absolute;
+                    z-index: 200;
+                    top: 50%;
+                    right: 10px;
+                    transform: translateY(-110%);
+                }
+            }
+            .mail{
+                position: relative;
+                i{
+                    color: white;
+                    position: absolute;
+                    z-index: 200;
+                    top: 50%;
+                    right: 10px;
+                    transform: translateY(-110%);
+                }
+            }
+            .button{
+                display: flex;
+                justify-content: space-between;
+                .child-1{
+                    padding: 10px 80px;
+                    background: #33CC33;
+                    button{
+                        color: white;
+                    }
+                }
+                .child-2{
+                    padding: 10px 80px;
+                    background: #CC0000;
+                    button{
+                        color: white;
+                    }
+                }
+            }
+        } 
+    }
+}

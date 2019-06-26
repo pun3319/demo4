@@ -1,0 +1,49 @@
+.container {
+  background: url("https://i.pinimg.com/originals/cb/c2/2c/cbc22ca5a3d7568a742262639a9f6b3f.jpg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .container form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 40px 40px 20px 40px;
+    background: #CCCCCC; }
+    .container form .user {
+      margin-bottom: 15px;
+      background: white;
+      position: relative; }
+      .container form .user input {
+        padding: 10px; }
+      .container form .user i {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-50%, -50%); }
+    .container form .pass {
+      margin-bottom: 15px;
+      background: white;
+      position: relative; }
+      .container form .pass input {
+        padding: 10px; }
+      .container form .pass input::-webkit-input-placeholder {
+        transform: translateY(-5px); }
+      .container form .pass i {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-50%, -50%); }
+    .container form button {
+      background: #00CCCC;
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer; }
+      .container form button:hover {
+        background: rebeccapurple; }
+    .container form a {
+      color: #666666;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px; }

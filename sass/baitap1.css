@@ -1,0 +1,923 @@
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.container .transition {
+  width: 600px;
+}
+
+.container .transition .mini {
+  margin-top: 30px;
+}
+
+.container .transition .mini .grow {
+  width: 70px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .grow a {
+  color: black;
+}
+
+.container .transition .mini .grow:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container .transition .mini .shrink {
+  width: 70px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .shrink a {
+  color: black;
+}
+
+.container .transition .mini .shrink:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container .transition .mini .pulse {
+  width: 70px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .pulse a {
+  color: black;
+}
+
+.container .transition .mini .pulse:hover {
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.container .transition .mini .pulse-grow {
+  width: 100px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .pulse-grow a {
+  color: black;
+}
+
+.container .transition .mini .pulse-grow:hover {
+  -webkit-animation-name: pulse-grow;
+          animation-name: pulse-grow;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.container .transition .mini .pulse-shrink {
+  width: 100px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .pulse-shrink a {
+  color: black;
+}
+
+.container .transition .mini .pulse-shrink:hover {
+  -webkit-animation-name: pulse-shrink;
+          animation-name: pulse-shrink;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.container .transition .mini .push {
+  width: 70px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .push a {
+  color: black;
+}
+
+.container .transition .mini .push:hover {
+  -webkit-animation-name: push;
+          animation-name: push;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+.container .transition .mini .pop {
+  width: 70px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .pop a {
+  color: black;
+}
+
+.container .transition .mini .pop:hover {
+  -webkit-animation-name: pop;
+          animation-name: pop;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+.container .transition .mini .bounce-in {
+  width: 100px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .bounce-in a {
+  color: black;
+}
+
+.container .transition .mini .bounce-in:hover {
+  -webkit-animation-name: bounce-in;
+          animation-name: bounce-in;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.container .transition .mini .bounce-out {
+  width: 100px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .bounce-out a {
+  color: black;
+}
+
+.container .transition .mini .bounce-out:hover {
+  -webkit-animation-name: bounce-out;
+          animation-name: bounce-out;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.container .transition .mini .rotate {
+  width: 70px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .rotate a {
+  color: black;
+}
+
+.container .transition .mini .rotate:hover {
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .transition .mini .grow-rotate {
+  width: 100px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .grow-rotate a {
+  color: black;
+}
+
+.container .transition .mini .grow-rotate:hover {
+  -webkit-transform: scale(1.1) rotate(5deg);
+          transform: scale(1.1) rotate(5deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .transition .mini .float {
+  width: 100px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .float a {
+  color: black;
+}
+
+.container .transition .mini .float:hover {
+  -webkit-animation-name: float;
+          animation-name: float;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.container .transition .mini .sink {
+  width: 70px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .sink a {
+  color: black;
+}
+
+.container .transition .mini .sink:hover {
+  -webkit-animation-name: sink;
+          animation-name: sink;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.container .transition .mini .bob {
+  width: 70px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .bob a {
+  color: black;
+}
+
+.container .transition .mini .bob:hover {
+  -webkit-animation-name: bob;
+          animation-name: bob;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+}
+
+.container .transition .mini .hang {
+  width: 70px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .hang a {
+  color: black;
+}
+
+.container .transition .mini .hang:hover {
+  -webkit-animation-name: hang;
+          animation-name: hang;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
+}
+
+.container .transition .mini .skew {
+  width: 70px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .skew a {
+  color: black;
+}
+
+.container .transition .mini .skew:hover {
+  -webkit-transform: skewX(-15deg);
+          transform: skewX(-15deg);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container .transition .mini .skew-forward {
+  width: 120px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .skew-forward a {
+  color: black;
+}
+
+.container .transition .mini .skew-forward:hover {
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .transition .mini .skew-backward {
+  width: 120px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .skew-backward a {
+  color: black;
+}
+
+.container .transition .mini .skew-backward:hover {
+  -webkit-transform: skewX(20deg);
+          transform: skewX(20deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .transition .mini .wobble-horizontal {
+  width: 150px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .wobble-horizontal a {
+  color: black;
+}
+
+.container .transition .mini .wobble-horizontal:hover {
+  -webkit-animation-name: wobble-horizontal;
+          animation-name: wobble-horizontal;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.container .transition .mini .wobble-vertical {
+  width: 150px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .wobble-vertical a {
+  color: black;
+}
+
+.container .transition .mini .wobble-vertical:hover {
+  -webkit-animation-name: wobble-vertical;
+          animation-name: wobble-vertical;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.container .transition .mini .wobble-to-bottom-right {
+  width: 180px;
+  height: 55px;
+  background: #bbbbbb;
+}
+
+.container .transition .mini .wobble-to-bottom-right a {
+  color: black;
+}
+
+.container .transition .mini .wobble-to-bottom-right:hover {
+  -webkit-animation-name: wobble-to-bottom-right;
+          animation-name: wobble-to-bottom-right;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@-webkit-keyframes pulse-grow {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes pulse-grow {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes pulse-shrink {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes pulse-shrink {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes push {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+
+@keyframes push {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+
+@-webkit-keyframes pop {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@keyframes pop {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@-webkit-keyframes bounce-in {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  70% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@keyframes bounce-in {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  70% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@-webkit-keyframes bounce-out {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  70% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+
+@keyframes bounce-out {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  70% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+
+@-webkit-keyframes float {
+  0% {
+    bottom: 0;
+    left: 0;
+  }
+  100% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+}
+
+@keyframes float {
+  0% {
+    bottom: 0;
+    left: 0;
+  }
+  100% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+}
+
+@-webkit-keyframes sink {
+  0% {
+    bottom: 0;
+    left: 0;
+  }
+  100% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+}
+
+@keyframes sink {
+  0% {
+    bottom: 0;
+    left: 0;
+  }
+  100% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+}
+
+@-webkit-keyframes bob {
+  0% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  50% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+  }
+  100% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+}
+
+@keyframes bob {
+  0% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  50% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+  }
+  100% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+}
+
+@-webkit-keyframes hang {
+  0% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  50% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(20%);
+            transform: translateY(20%);
+  }
+  100% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+}
+
+@keyframes hang {
+  0% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  50% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(20%);
+            transform: translateY(20%);
+  }
+  100% {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+}
+
+@-webkit-keyframes wobble-horizontal {
+  0% {
+    left: 0;
+    bottom: 0;
+  }
+  20% {
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
+  40% {
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
+  }
+  60% {
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
+  80% {
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
+  }
+  100% {
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
+}
+
+@keyframes wobble-horizontal {
+  0% {
+    left: 0;
+    bottom: 0;
+  }
+  20% {
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
+  40% {
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
+  }
+  60% {
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
+  80% {
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
+  }
+  100% {
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
+}
+
+@-webkit-keyframes wobble-vertical {
+  0% {
+    left: 0;
+    bottom: 0;
+  }
+  20% {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  40% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  60% {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  80% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  100% {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+}
+
+@keyframes wobble-vertical {
+  0% {
+    left: 0;
+    bottom: 0;
+  }
+  20% {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  40% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  60% {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  80% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  100% {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+}
+
+@-webkit-keyframes wobble-to-bottom-right {
+  0% {
+    left: 0;
+    bottom: 0;
+  }
+  20% {
+    -webkit-transform: translateX(5%) translateY(5%);
+            transform: translateX(5%) translateY(5%);
+  }
+  40% {
+    -webkit-transform: translateX(-5%) translateY(-5%);
+            transform: translateX(-5%) translateY(-5%);
+  }
+  60% {
+    -webkit-transform: translateX(5%) translateY(5%);
+            transform: translateX(5%) translateY(5%);
+  }
+  80% {
+    -webkit-transform: translateX(-5%) translateY(-5%);
+            transform: translateX(-5%) translateY(-5%);
+  }
+  100% {
+    -webkit-transform: translateX(5%) translateY(5%);
+            transform: translateX(5%) translateY(5%);
+  }
+}
+
+@keyframes wobble-to-bottom-right {
+  0% {
+    left: 0;
+    bottom: 0;
+  }
+  20% {
+    -webkit-transform: translateX(5%) translateY(5%);
+            transform: translateX(5%) translateY(5%);
+  }
+  40% {
+    -webkit-transform: translateX(-5%) translateY(-5%);
+            transform: translateX(-5%) translateY(-5%);
+  }
+  60% {
+    -webkit-transform: translateX(5%) translateY(5%);
+            transform: translateX(5%) translateY(5%);
+  }
+  80% {
+    -webkit-transform: translateX(-5%) translateY(-5%);
+            transform: translateX(-5%) translateY(-5%);
+  }
+  100% {
+    -webkit-transform: translateX(5%) translateY(5%);
+            transform: translateX(5%) translateY(5%);
+  }
+}
+/*# sourceMappingURL=baitap1.css.map */

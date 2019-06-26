@@ -1,0 +1,132 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; }
+  .container .left {
+    width: 400px; }
+    .container .left .img {
+      position: relative; }
+      .container .left .img .top p {
+        width: 400px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        font-size: 20px;
+        background-color: green;
+        font-weight: bold;
+        padding: 10px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white; }
+      .container .left .img .bot {
+        width: 400px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px; }
+    .container .left .three {
+      padding-top: 20px;
+      width: 400px;
+      height: 100px;
+      display: flex;
+      justify-content: space-between; }
+      .container .left .three .oneleft {
+        width: 33%;
+        height: 70px;
+        background-color: #AAAAAA; }
+        .container .left .three .oneleft p {
+          color: white;
+          font-size: 20px;
+          text-align: center;
+          padding-top: 19%; }
+      .container .left .three .onemid {
+        width: 33%;
+        height: 70px;
+        background-color: #AAAAAA; }
+        .container .left .three .onemid p {
+          color: white;
+          font-size: 20px;
+          text-align: center;
+          padding-top: 10%; }
+      .container .left .three .oneright {
+        width: 33%;
+        height: 70px;
+        background-color: #AAAAAA; }
+        .container .left .three .oneright p {
+          color: white;
+          font-size: 20px;
+          text-align: center;
+          padding-top: 19%; }
+    .container .left .content {
+      padding-top: 10px; }
+      .container .left .content p {
+        border-top: 1px black solid;
+        padding: 10px 0px; }
+  .container .right {
+    width: 400px; }
+    .container .right .img {
+      position: relative; }
+      .container .right .img .top p {
+        width: 400px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        font-size: 20px;
+        background-color: red;
+        font-weight: bold;
+        padding: 10px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white; }
+      .container .right .img .bot {
+        width: 400px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px; }
+    .container .right .three {
+      padding-top: 20px;
+      width: 400px;
+      height: 100px;
+      display: flex;
+      justify-content: space-between; }
+      .container .right .three .oneleft {
+        width: 33%;
+        height: 70px;
+        background-color: #AAAAAA; }
+        .container .right .three .oneleft p {
+          color: white;
+          font-size: 20px;
+          text-align: center;
+          padding-top: 19%; }
+      .container .right .three .onemid {
+        width: 33%;
+        height: 70px;
+        background-color: #AAAAAA; }
+        .container .right .three .onemid p {
+          color: white;
+          font-size: 20px;
+          text-align: center;
+          padding-top: 20%; }
+      .container .right .three .oneright {
+        width: 33%;
+        height: 70px;
+        background-color: #AAAAAA; }
+        .container .right .three .oneright p {
+          color: white;
+          font-size: 20px;
+          text-align: center;
+          padding-top: 10%; }
+    .container .right .content {
+      padding-top: 10px; }
+      .container .right .content p {
+        border-top: 1px black solid;
+        padding: 10px 0px; }

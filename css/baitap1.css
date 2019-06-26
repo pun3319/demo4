@@ -1,0 +1,363 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.container {
+  margin-top: 50px; }
+  .container .transition {
+    width: 600px; }
+    .container .transition .mini {
+      margin-top: 30px; }
+      .container .transition .mini .grow {
+        width: 70px;
+        height: 55px;
+        background: #bbbbbb; }
+        .container .transition .mini .grow a {
+          color: black; }
+        .container .transition .mini .grow:hover {
+          transform: scale(1.1);
+          transition: all 0.5s; }
+      .container .transition .mini .shrink {
+        width: 70px;
+        height: 55px;
+        background: #bbbbbb; }
+        .container .transition .mini .shrink a {
+          color: black; }
+        .container .transition .mini .shrink:hover {
+          transform: scale(0.9);
+          transition: all 0.5s; }
+      .container .transition .mini .pulse {
+        width: 70px;
+        height: 55px;
+        background: #bbbbbb; }
+        .container .transition .mini .pulse a {
+          color: black; }
+        .container .transition .mini .pulse:hover {
+          animation-name: pulse;
+          animation-duration: 0.5s;
+          animation-iteration-count: infinite; }
+      .container .transition .mini .pulse-grow {
+        width: 100px;
+        height: 55px;
+        background: #bbbbbb; }
+        .container .transition .mini .pulse-grow a {
+          color: black; }
+        .container .transition .mini .pulse-grow:hover {
+          animation-name: pulse-grow;
+          animation-duration: 0.5s;
+          animation-iteration-count: infinite; }
+      .container .transition .mini .pulse-shrink {
+        width: 100px;
+        height: 55px;
+        background: #bbbbbb; }
+        .container .transition .mini .pulse-shrink a {
+          color: black; }
+        .container .transition .mini .pulse-shrink:hover {
+          animation-name: pulse-shrink;
+          animation-duration: 0.5s;
+          animation-iteration-count: infinite; }
+      .container .transition .mini .push {
+        width: 70px;
+        height: 55px;
+        background: #bbbbbb; }
+        .container .transition .mini .push a {
+          color: black; }
+        .container .transition .mini .push:hover {
+          animation-name: push;
+          animation-duration: 0.5s; }
+    .container .transition .mini .pop {
+      width: 70px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .pop a {
+        color: black; }
+      .container .transition .mini .pop:hover {
+        animation-name: pop;
+        animation-duration: 0.5s; }
+    .container .transition .mini .bounce-in {
+      width: 100px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .bounce-in a {
+        color: black; }
+      .container .transition .mini .bounce-in:hover {
+        animation-name: bounce-in;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards; }
+    .container .transition .mini .bounce-out {
+      width: 100px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .bounce-out a {
+        color: black; }
+      .container .transition .mini .bounce-out:hover {
+        animation-name: bounce-out;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards; }
+    .container .transition .mini .rotate {
+      width: 70px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .rotate a {
+        color: black; }
+      .container .transition .mini .rotate:hover {
+        transform: rotate(5deg);
+        transition: 0.5s; }
+    .container .transition .mini .grow-rotate {
+      width: 100px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .grow-rotate a {
+        color: black; }
+      .container .transition .mini .grow-rotate:hover {
+        transform: scale(1.1) rotate(5deg);
+        transition: 0.5s; }
+    .container .transition .mini .float {
+      width: 100px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .float a {
+        color: black; }
+      .container .transition .mini .float:hover {
+        animation-name: float;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards; }
+    .container .transition .mini .sink {
+      width: 70px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .sink a {
+        color: black; }
+      .container .transition .mini .sink:hover {
+        animation-name: sink;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards; }
+    .container .transition .mini .bob {
+      width: 70px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .bob a {
+        color: black; }
+      .container .transition .mini .bob:hover {
+        animation-name: bob;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        transform: translateY(-10%); }
+    .container .transition .mini .hang {
+      width: 70px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .hang a {
+        color: black; }
+      .container .transition .mini .hang:hover {
+        animation-name: hang;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        transform: translateY(10%); }
+    .container .transition .mini .skew {
+      width: 70px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .skew a {
+        color: black; }
+      .container .transition .mini .skew:hover {
+        transform: skewX(-15deg);
+        transition: all 0.5s; }
+    .container .transition .mini .skew-forward {
+      width: 120px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .skew-forward a {
+        color: black; }
+      .container .transition .mini .skew-forward:hover {
+        transform: skewX(-20deg);
+        transition: 0.5s; }
+    .container .transition .mini .skew-backward {
+      width: 120px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .skew-backward a {
+        color: black; }
+      .container .transition .mini .skew-backward:hover {
+        transform: skewX(20deg);
+        transition: 0.5s; }
+    .container .transition .mini .wobble-horizontal {
+      width: 150px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .wobble-horizontal a {
+        color: black; }
+      .container .transition .mini .wobble-horizontal:hover {
+        animation-name: wobble-horizontal;
+        animation-duration: 1s; }
+    .container .transition .mini .wobble-vertical {
+      width: 150px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .wobble-vertical a {
+        color: black; }
+      .container .transition .mini .wobble-vertical:hover {
+        animation-name: wobble-vertical;
+        animation-duration: 1s; }
+    .container .transition .mini .wobble-to-bottom-right {
+      width: 180px;
+      height: 55px;
+      background: #bbbbbb; }
+      .container .transition .mini .wobble-to-bottom-right a {
+        color: black; }
+      .container .transition .mini .wobble-to-bottom-right:hover {
+        animation-name: wobble-to-bottom-right;
+        animation-duration: 1s; }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(0.9); } }
+
+@keyframes pulse-grow {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes pulse-shrink {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(0.9); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes push {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(0.8); } }
+
+@keyframes pop {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.2); } }
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.2); }
+  70% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(1.2); } }
+
+@keyframes bounce-out {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(0.8); }
+  70% {
+    transform: scale(0.9); }
+  100% {
+    transform: scale(0.8); } }
+
+@keyframes float {
+  0% {
+    bottom: 0;
+    left: 0; }
+  100% {
+    bottom: 0;
+    left: 0;
+    transform: translateY(-10%); } }
+
+@keyframes sink {
+  0% {
+    bottom: 0;
+    left: 0; }
+  100% {
+    bottom: 0;
+    left: 0;
+    transform: translateY(10%); } }
+
+@keyframes bob {
+  0% {
+    bottom: 0;
+    left: 0;
+    transform: translateY(-10%); }
+  50% {
+    bottom: 0;
+    left: 0;
+    transform: translateY(-20%); }
+  100% {
+    bottom: 0;
+    left: 0;
+    transform: translateY(-10%); } }
+
+@keyframes hang {
+  0% {
+    bottom: 0;
+    left: 0;
+    transform: translateY(10%); }
+  50% {
+    bottom: 0;
+    left: 0;
+    transform: translateY(20%); }
+  100% {
+    bottom: 0;
+    left: 0;
+    transform: translateY(10%); } }
+
+@keyframes wobble-horizontal {
+  0% {
+    left: 0;
+    bottom: 0; }
+  20% {
+    transform: translateX(10%); }
+  40% {
+    transform: translateX(-10%); }
+  60% {
+    transform: translateX(10%); }
+  80% {
+    transform: translateX(-10%); }
+  100% {
+    transform: translateX(10%); } }
+
+@keyframes wobble-vertical {
+  0% {
+    left: 0;
+    bottom: 0; }
+  20% {
+    transform: translateY(10%); }
+  40% {
+    transform: translateY(-10%); }
+  60% {
+    transform: translateY(10%); }
+  80% {
+    transform: translateY(-10%); }
+  100% {
+    transform: translateY(10%); } }
+
+@keyframes wobble-to-bottom-right {
+  0% {
+    left: 0;
+    bottom: 0; }
+  20% {
+    transform: translateX(5%) translateY(5%); }
+  40% {
+    transform: translateX(-5%) translateY(-5%); }
+  60% {
+    transform: translateX(5%) translateY(5%); }
+  80% {
+    transform: translateX(-5%) translateY(-5%); }
+  100% {
+    transform: translateX(5%) translateY(5%); } }

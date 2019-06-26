@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxmAvBW-sSPYRQMZMsUtjAMVkX7pKRfxmHtl_ylNyBKmNEcTPL");
+  background-position: center center;
+  background-size: cover;
+  height: 100vh; }
+  .container .title h1 {
+    margin: 30px;
+    color: white; }
+  .container .form {
+    display: flex; }
+    .container .form .mini-form {
+      position: relative;
+      width: 500px;
+      margin: 20px;
+      padding: 20px;
+      color: white; }
+      .container .form .mini-form h2 {
+        text-align: center;
+        margin: 20px;
+        z-index: 200;
+        position: relative; }
+      .container .form .mini-form:after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: black;
+        opacity: 0.2;
+        top: 0;
+        left: 0;
+        z-index: 100; }
+      .container .form .mini-form input {
+        width: 460px;
+        position: relative;
+        z-index: 200;
+        border: 1px white solid;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 20px; }
+        .container .form .mini-form input:focus input::-webkit-input-placeholder {
+          color: transparent; }
+      .container .form .mini-form input::-webkit-input-placeholder {
+        color: white; }
+      .container .form .mini-form .user {
+        position: relative; }
+        .container .form .mini-form .user i {
+          color: white;
+          position: absolute;
+          z-index: 200;
+          top: 50%;
+          right: 10px;
+          transform: translateY(-110%); }
+      .container .form .mini-form .pass {
+        position: relative; }
+        .container .form .mini-form .pass i {
+          color: white;
+          position: absolute;
+          z-index: 200;
+          top: 50%;
+          right: 10px;
+          transform: translateY(-110%); }
+      .container .form .mini-form .phone {
+        position: relative; }
+        .container .form .mini-form .phone i {
+          color: white;
+          position: absolute;
+          z-index: 200;
+          top: 50%;
+          right: 10px;
+          transform: translateY(-110%); }
+      .container .form .mini-form .mail {
+        position: relative; }
+        .container .form .mini-form .mail i {
+          color: white;
+          position: absolute;
+          z-index: 200;
+          top: 50%;
+          right: 10px;
+          transform: translateY(-110%); }
+      .container .form .mini-form .button {
+        display: flex;
+        justify-content: space-between; }
+        .container .form .mini-form .button .child-1 {
+          padding: 10px 80px;
+          background: #33CC33; }
+          .container .form .mini-form .button .child-1 button {
+            color: white; }
+        .container .form .mini-form .button .child-2 {
+          padding: 10px 80px;
+          background: #CC0000; }
+          .container .form .mini-form .button .child-2 button {
+            color: white; }

@@ -1,0 +1,155 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content{
+        margin: 50px;
+        display: flex;
+        justify-content: space-between;
+        .img{
+            display: flex;
+            flex-direction: column;
+            .color{
+                margin-top: 30px;
+                display: flex;
+                justify-content: space-between;
+                img{
+                    width: 50px;
+                    height: 50px;
+                    opacity: 0;
+                }
+                .blue{
+                    cursor: pointer;
+                    width: 50px;
+                    height: 50px;
+                    background: #0033FF;
+                    opacity: 0.3;
+                }
+                .green{
+                    cursor: pointer;
+                    width: 50px;
+                    height: 50px;
+                    background: #009933;
+                    opacity: 0.3;
+    
+                }
+                .red{
+                    cursor: pointer;
+                    width: 50px;
+                    height: 50px;
+                    background: #FF3300;
+                    opacity: 0.3;
+                   
+                }
+                .white{
+                    cursor: pointer;
+                    width: 50px;
+                    height: 50px;
+                    background: #696969;
+                    opacity: 0.3;
+                }
+                .black{
+                    cursor: pointer;
+                    width: 50px;
+                    height: 50px;
+                    background: #1C1C1C;
+                    box-shadow: 1px 3px #999999;
+                }
+                
+            }
+        }
+        .price{
+            margin-left: 50px;
+            width: 500px;
+            fieldset{
+                legend{
+                    margin: 0 20px;
+                    padding: 20px 10px;
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+                .info{
+                    display: flex;
+                    justify-content: space-between;
+                    .name{
+                        padding-left: 32px;
+                        p{
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    .price-mini{
+                        padding-right: 32px;
+                        p{
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+                .thongtin{
+                    margin: 20px 32px;
+                    p{
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+                .size{
+                    margin: 0 32px;
+                    width: 150px;
+                    display: flex;
+                    flex-direction: column;
+                    .which-size{
+                        margin: 15px 0;
+                        display: flex;
+                        justify-content: space-between;
+                        p{
+                            cursor: pointer;
+                            padding-top: 10px;
+                            width: 40px;
+                            height: 40px;
+                            text-align: center;
+                            border: double black 1px;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+                .cout{
+                    display: flex;
+                    align-items: center;
+                    .left{
+                        margin: 10px 32px;
+                        display: flex;
+                        align-items: center;
+                    p{
+                       font-weight: bold; 
+                    }
+                    input{
+                        width: 100px;
+                        margin-left: 10px;
+                        padding: 5px;
+                        background: #DCDCDC;
+                        outline: #1C1C1C solid 1px;
+                    }
+                    }
+                    .right{
+                        display: flex;
+                        margin-left: 20px;
+                        p{
+                            font-weight: bold;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+                .button{
+                    margin: 32px;
+                  
+                    button{
+                        cursor: pointer;
+                        padding: 10px 13px;
+                        background: #FF3300;
+                        border: solid 1px black;
+                        color: white;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}

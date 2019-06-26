@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  body .lines {
+    margin-top: 50px;
+    position: relative; }
+    body .lines:after {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 0;
+      background: red;
+      width: 30px;
+      height: 5px;
+      transition: all 0.5; }
+    body .lines:before {
+      content: '';
+      position: absolute;
+      top: -10px;
+      left: 0;
+      background: red;
+      width: 30px;
+      height: 5px;
+      transition: all 0.5; }
+    body .lines .line {
+      background: red;
+      width: 30px;
+      height: 5px; }
+    body .lines:hover:before {
+      transform: rotate(45deg); }
+    body .lines:hover:after {
+      transform: rotate(-45deg); }

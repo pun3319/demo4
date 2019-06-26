@@ -1,0 +1,40 @@
+$(document).ready(function () {
+    $(window).scroll(function () { 
+       var currentPos = $("body,html").scrollTop()
+       console.log(currentPos) 
+      if(currentPos>70){
+          $(".back-top").addClass('up');
+      }
+      else{
+          $(".back-top").removeClass('up');
+      }
+      if(currentPos>450)
+      {
+          $(".child-1").addClass('fade');
+          $(".child-2").addClass('fade-2');
+          $(".child-3").addClass('fade-3');
+          $(".child-4").addClass('fade-4');
+          $(".child-5").addClass('fade-5');
+      }
+      if(currentPos>1400)
+      {
+          $(".title").addClass('fade');
+      }
+      if(currentPos>1800)
+      {
+          $(".big-thr-1").addClass('up-2');
+      }
+      if(currentPos>2000)
+      {
+          $(".big-thr-2").addClass('up-2');
+      }
+      if(currentPos>2200)
+      {
+          $(".big-thr-3").addClass('up-2');
+      }
+      if(currentPos>2700)
+      {
+          $(".big-last").addClass('fade');
+      }
+    });
+});

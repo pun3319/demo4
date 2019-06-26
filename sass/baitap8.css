@@ -1,0 +1,57 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .lines {
+  margin-top: 50px;
+  position: relative;
+}
+
+body .lines:after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background: red;
+  width: 30px;
+  height: 5px;
+  -webkit-transition: all 0.5;
+  transition: all 0.5;
+}
+
+body .lines:before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  background: red;
+  width: 30px;
+  height: 5px;
+  -webkit-transition: all 0.5;
+  transition: all 0.5;
+}
+
+body .lines .line {
+  background: red;
+  width: 30px;
+  height: 5px;
+}
+
+body .lines:hover:before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+body .lines:hover:after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+/*# sourceMappingURL=baitap8.css.map */

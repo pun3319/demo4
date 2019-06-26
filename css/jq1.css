@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .container .title h1 {
+    animation-name: run;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin: 40px;
+    font-size: 40px;
+    font-family: 'Baloo Bhai', cursive; }
+  .container .main {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .container .main .left h2 {
+      font-size: 30px;
+      font-family: 'Baloo Bhai', cursive; }
+    .container .main .left .icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .container .main .left .icon a {
+        color: black; }
+        .container .main .left .icon a i {
+          font-size: 50px;
+          margin: 30px;
+          transform: rotate(90deg); }
+    .container .main .right h2 {
+      font-size: 30px;
+      font-family: 'Baloo Bhai', cursive; }
+    .container .main .right .icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .container .main .right .icon a {
+        color: black; }
+        .container .main .right .icon a i {
+          font-size: 50px;
+          margin: 30px;
+          transform: rotate(-90deg); }
+  .container .load p {
+    margin: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Baloo Bhai', cursive;
+    border: double black 2px;
+    padding: 10px; }
+  .container .ketqua {
+    position: relative; }
+    .container .ketqua .win {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 200px;
+      height: 80px;
+      position: absolute; }
+      .container .ketqua .win p {
+        text-align: center;
+        margin: 20px;
+        font-size: 20px;
+        font-family: 'Baloo Bhai', cursive;
+        border: double black 2px;
+        padding: 10px; }
+    .container .ketqua .lose {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      width: 200px;
+      height: 80px; }
+      .container .ketqua .lose p {
+        text-align: center;
+        margin: 20px;
+        font-size: 20px;
+        font-family: 'Baloo Bhai', cursive;
+        border: double black 2px;
+        padding: 10px; }
+    .container .ketqua .equal {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      width: 200px;
+      height: 80px; }
+      .container .ketqua .equal p {
+        text-align: center;
+        margin: 20px;
+        font-size: 20px;
+        font-family: 'Baloo Bhai', cursive;
+        border: double black 2px;
+        padding: 10px; }
+
+@keyframes run {
+  0% {
+    transform: translateX(-300px); }
+  50% {
+    transform: translateX(300px); }
+  100% {
+    transform: translateX(-300px); } }

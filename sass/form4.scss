@@ -1,0 +1,99 @@
+.big{
+    position: relative;
+    .container{
+        display: flex;
+        .left{
+            .container-left{
+                padding-left: 60px;
+                width: 810px;
+                height: 660px;
+                background: url("https://demo.w3layouts.com/demos_new/template_demo/18-03-2019/gaze_signup-login_form-demo_Free/1587213728/web/images/b1.jpg");
+                .title{
+                    h2{
+                        padding-top: 80px;
+                        margin-bottom: 40px;
+                        color: white;
+                        
+                    }
+                }
+                .form{
+                    display: flex;
+                    flex-direction: column;
+                    input{
+                        padding: 15px;
+                        background: #EEEEEE;
+                        margin-bottom: 30px;
+                        width: 400px;
+                        border-bottom: 3px #00a1ff solid;
+                    }
+                }
+                .bottom{
+                    display: flex;
+                    width: 400px;
+                    justify-content: space-between;
+                    color:white;
+                    font-size: 14px;
+                    a{
+                        color: white;
+                        font-size: 14px;
+                    }
+                }
+                .button{
+                    margin: 40px 0;
+                    width: 80px;
+                    text-align: center;
+                    padding: 10px;
+                    background: #00a1ff;
+                    button{
+                        color: white;
+                    }
+                    
+                }
+                .foot{
+                    color: white;
+                    font-size: 14px;
+                    a{
+                        color: white;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .right{
+            .container-right{
+                background: #00a1ff;
+                height: 660px;
+                width: 550px;
+               .content{
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                h1{
+                    text-shadow: 2px;
+                    padding-top: 200px;
+                    width: 400px;
+                    font-size: 40px;
+                    color: white;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    font-weight: bold;
+                }
+               }
+            }
+        }
+    }
+    .footer{
+        position: absolute;
+        bottom: 8%;
+        left: 50%;
+        transform: translateX(-50%);
+        p{
+            color: white;
+            a{
+               color: #ff5e00;
+               &:hover{
+                   color:white
+               }
+            }
+        }
+    }
+}

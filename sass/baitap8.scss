@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .lines{
+        margin-top: 50px;
+        position: relative;
+        &:after{
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 0;
+            background: red;
+            width: 30px;
+            height: 5px;
+            transition: all 0.5;
+        }
+        &:before{
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: 0;
+            background: red;
+            width: 30px;
+            height: 5px;
+            transition: all 0.5;
+        }
+        .line{
+            background: red;
+            width: 30px;
+            height: 5px;
+        }
+        &:hover{
+            &:before{
+                transform: rotate(45deg);
+            }
+            &:after{
+                transform: rotate(-45deg);
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+.container {
+  width: 1500px; }
+  .container .header {
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 60px 0px 60px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center; }
+    .container .header .logo {
+      align-items: center;
+      display: flex; }
+      .container .header .logo ul {
+        display: flex; }
+        .container .header .logo ul li {
+          margin: 20px;
+          color: white; }
+    .container .header .user img {
+      margin: 15px;
+      border-radius: 50%; }
+  .container .content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 60px 0px 60px; }
+    .container .content .top {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between; }
+      .container .content .top .newsleft {
+        display: flex; }
+        .container .content .top .newsleft .news {
+          margin-right: 10px; }
+          .container .content .top .newsleft .news strong p {
+            color: orange; }
+      .container .content .top .newsright {
+        display: flex; }
+        .container .content .top .newsright .a {
+          margin-right: 10px; }
+    .container .content .mid {
+      display: flex; }
+      .container .content .mid .left {
+        margin-right: 30px;
+        width: 380px; }
+        .container .content .mid .left .title {
+          display: flex; }
+          .container .content .mid .left .title .clone a {
+            color: black; }
+          .container .content .mid .left .title .clone a:hover {
+            color: steelblue; }
+          .container .content .mid .left .title img {
+            margin-right: 10px;
+            margin-bottom: 5px; }
+      .container .content .mid .center {
+        width: 600px; }
+        .container .content .mid .center h1 {
+          color: black; }
+        .container .content .mid .center h1:hover {
+          color: steelblue; }
+        .container .content .mid .center img {
+          margin-bottom: 10px; }
+        .container .content .mid .center p {
+          margin-top: 5px; }
+      .container .content .mid .right {
+        width: 300px;
+        margin-left: 30px; }
+        .container .content .mid .right .noidung2 p {
+          color: black; }
+        .container .content .mid .right .noidung2 p:hover {
+          color: steelblue; }
+        .container .content .mid .right .noidung {
+          display: flex; }
+          .container .content .mid .right .noidung .live {
+            color: red;
+            margin-right: 5px; }
+          .container .content .mid .right .noidung .c p {
+            margin-bottom: 10px;
+            color: black; }
+          .container .content .mid .right .noidung .c p:hover {
+            color: steelblue; }
+        .container .content .mid .right img {
+          margin-bottom: 10px; }

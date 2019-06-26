@@ -1,0 +1,232 @@
+.container {
+  padding-top: 20px; }
+  .container .header {
+    display: flex;
+    justify-content: space-between; }
+    .container .header .left-header {
+      padding-left: 50px;
+      display: flex;
+      justify-content: space-between; }
+      .container .header .left-header .icon {
+        margin-right: 10px;
+        color: green; }
+      .container .header .left-header .name-logo {
+        font-weight: bold; }
+    .container .header .right-header {
+      padding-right: 50px;
+      display: flex;
+      justify-content: space-between; }
+      .container .header .right-header a {
+        color: black; }
+      .container .header .right-header p {
+        margin-right: 30px;
+        font-weight: bold; }
+  .container .background-img {
+    margin: 30px 0px 0px 0px;
+    height: 550px;
+    background: url("https://i.imgur.com/33XLJYZ.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .container .background-img .content-1 .a h2 {
+      margin-bottom: 10px;
+      background: gray;
+      color: white;
+      padding: 10px 30px;
+      width: 600px;
+      text-align: center; }
+    .container .background-img .content-1 .b h3 {
+      margin-left: 42px;
+      margin-bottom: 10px;
+      background: gray;
+      color: white;
+      padding: 10px 20px;
+      width: 520px;
+      text-align: center; }
+    .container .background-img .content-1 .content-2 {
+      width: 150px;
+      box-shadow: 3px 3px 3px black;
+      margin-left: 220px;
+      width: 150px;
+      background: green;
+      text-align: center;
+      font-weight: bold; }
+      .container .background-img .content-1 .content-2 a h3 {
+        padding: 10px;
+        color: white; }
+  .container .pr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background: gray;
+    height: 180px; }
+    .container .pr .child {
+      color: white;
+      border-left: white 2px solid;
+      width: 320px;
+      height: 120px;
+      padding: 0px 40px; }
+      .container .pr .child i {
+        font-size: 35px;
+        margin-bottom: 5px; }
+      .container .pr .child h1 {
+        font-weight: bold;
+        font-size: 30px;
+        margin: 10px; }
+      .container .pr .child p {
+        padding: 10px;
+        font-size: 15px; }
+    .container .pr .child:first-child {
+      border-left: none; }
+  .container .content {
+    margin-top: 60px;
+    width: 100%;
+    padding: 0 40px 40px 40px;
+    display: flex;
+    border-bottom: 2px black solid; }
+    .container .content .left {
+      margin-right: 20px;
+      padding: 20px; }
+    .container .content .right {
+      width: 600px; }
+      .container .content .right h2 {
+        padding: 20px 20px 20px 0px; }
+  .container .title {
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  .container .mess {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0  40px; }
+    .container .mess .mess-1 .child-mess {
+      position: relative; }
+      .container .mess .mess-1 .child-mess .square {
+        position: relative;
+        width: 400px;
+        border: 1px black solid;
+        z-index: 10; }
+        .container .mess .mess-1 .child-mess .square p {
+          padding: 30px; }
+      .container .mess .mess-1 .child-mess .tam-giac {
+        z-index: 400;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-bottom: 1px black solid;
+        border-right: 1px black solid;
+        transform: rotate(45deg);
+        left: 55px;
+        bottom: 89px;
+        background: white; }
+      .container .mess .mess-1 .child-mess .avatar {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center; }
+        .container .mess .mess-1 .child-mess .avatar img {
+          border-radius: 50%;
+          margin-right: 10px; }
+        .container .mess .mess-1 .child-mess .avatar .avt {
+          margin-top: 10px; }
+    .container .mess .mess-2 .child-mess {
+      position: relative; }
+      .container .mess .mess-2 .child-mess .square {
+        position: relative;
+        width: 400px;
+        height: 130px;
+        border: 1px black solid;
+        z-index: 100; }
+        .container .mess .mess-2 .child-mess .square p {
+          padding: 30px; }
+      .container .mess .mess-2 .child-mess .tam-giac {
+        z-index: 400;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-bottom: 1px black solid;
+        border-right: 1px black solid;
+        transform: rotate(45deg);
+        left: 55px;
+        bottom: 90px;
+        background: white; }
+      .container .mess .mess-2 .child-mess .avatar {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center; }
+        .container .mess .mess-2 .child-mess .avatar img {
+          border-radius: 50%;
+          margin-right: 10px; }
+        .container .mess .mess-2 .child-mess .avatar .avt {
+          margin-top: 10px; }
+    .container .mess .mess-3 .child-mess {
+      position: relative; }
+      .container .mess .mess-3 .child-mess .square {
+        position: relative;
+        width: 400px;
+        height: 130px;
+        border: 1px black solid;
+        z-index: 100; }
+        .container .mess .mess-3 .child-mess .square p {
+          padding: 30px; }
+      .container .mess .mess-3 .child-mess .tam-giac {
+        z-index: 400;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-bottom: 1px black solid;
+        border-right: 1px black solid;
+        transform: rotate(45deg);
+        left: 55px;
+        bottom: 90px;
+        background: white; }
+      .container .mess .mess-3 .child-mess .avatar {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center; }
+        .container .mess .mess-3 .child-mess .avatar img {
+          border-radius: 50%;
+          margin-right: 10px; }
+        .container .mess .mess-3 .child-mess .avatar .avt {
+          margin-top: 10px; }
+  .container .last {
+    margin-top: 30px;
+    height: 400px;
+    background: gray; }
+    .container .last .last-top {
+      margin-top: 30px; }
+      .container .last .last-top .mid {
+        padding-top: 30px;
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+        .container .last .last-top .mid h1 {
+          margin-bottom: 20px; }
+        .container .last .last-top .mid p {
+          font-size: 20px; }
+        .container .last .last-top .mid .Layout {
+          margin-right: 70px; }
+        .container .last .last-top .mid .Account {
+          margin-right: 70px; }
+    .container .last .last-bot {
+      margin-top: 100px;
+      align-items: center;
+      display: flex;
+      justify-content: center; }
+      .container .last .last-bot .mid-2 {
+        font-size: 20px;
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        width: 300px;
+        border-top: 1px white solid; }
+
+* {
+  font-family: 'Itim', cursive; }

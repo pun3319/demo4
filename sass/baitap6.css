@@ -1,0 +1,352 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.big-header {
+  background: url("https://toihocweb.github.io/project3/assets/img/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 730px;
+}
+
+.big-header .navbar {
+  padding: 20px;
+}
+
+.big-header .navbar .container-navbar {
+  width: 1240px;
+  height: 40px;
+}
+
+.big-header .navbar .container-navbar .left p {
+  color: white;
+  font-size: 20px;
+}
+
+.big-header .navbar .container-navbar .right {
+  width: 500px;
+}
+
+.big-header .navbar .container-navbar .right ul li a {
+  color: white;
+  font-size: 18px;
+}
+
+.big-header .big-content {
+  margin-top: 80px;
+}
+
+.big-header .big-content .container {
+  width: 1100px;
+  text-align: center;
+  position: relative;
+}
+
+.big-header .big-content .container h1 {
+  font-size: 70px;
+  color: white;
+  padding: 40px;
+}
+
+.big-header .big-content .container:after {
+  content: '';
+  width: 50px;
+  height: 3px;
+  background: #FF4040;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.big-header .content {
+  margin-top: 35px;
+}
+
+.big-header .content .mini-content {
+  color: #feffff;
+  font-size: 22px;
+  text-align: center;
+  width: 880px;
+}
+
+.big-header .click {
+  margin: 40px;
+}
+
+.big-header .click .mini-click {
+  width: 200px;
+  height: 50px;
+  background: #FF4040;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 20px;
+}
+
+.big-header .click .mini-click a {
+  color: white;
+  font-weight: bold;
+}
+
+.big-content-2 {
+  background: #FF4040;
+  height: 500px;
+}
+
+.big-content-2 .content-2 .mini-content {
+  position: relative;
+}
+
+.big-content-2 .content-2 .mini-content h1 {
+  margin-top: 120px;
+  color: white;
+  padding: 30px;
+}
+
+.big-content-2 .content-2 .mini-content:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 50px;
+  height: 3px;
+  background: white;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.big-content-2 .content-3 {
+  margin: 30px;
+}
+
+.big-content-2 .content-3 .mini-content-3 {
+  width: 1000px;
+}
+
+.big-content-2 .content-3 .mini-content-3 p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.big-content-2 .click-2 {
+  margin: 40px;
+}
+
+.big-content-2 .click-2 .mini-click {
+  width: 200px;
+  height: 60px;
+  background: white;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 20px;
+}
+
+.big-content-2 .click-2 .mini-click a {
+  color: black;
+  font-weight: bold;
+}
+
+.big-title .title {
+  position: relative;
+  margin: 120px;
+}
+
+.big-title .title h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.big-title .title:after {
+  content: '';
+  width: 60px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #FF4040;
+}
+
+.big-icon {
+  margin-bottom: 120px;
+}
+
+.big-icon .mini-icon {
+  width: 1350px;
+}
+
+.big-icon .mini-icon .icon .child {
+  text-align: center;
+  margin-left: 40px;
+}
+
+.big-icon .mini-icon .icon .child i {
+  font-size: 70px;
+  color: #FF4040;
+  margin: 20px;
+}
+
+.big-icon .mini-icon .icon .child h2 {
+  font-size: 30px;
+}
+
+.big-icon .mini-icon .icon .child p {
+  margin: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #AAAAAA;
+}
+
+.big-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.big-img img {
+  width: 450px;
+  height: 250px;
+}
+
+.big-img .child-img .a {
+  margin: 0;
+  padding: 0;
+  height: 250px;
+  position: relative;
+}
+
+.big-img .child-img .a .text {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  text-align: center;
+  display: none;
+}
+
+.big-img .child-img .a .text h1 {
+  color: white;
+}
+
+.big-img .child-img .a .text p {
+  color: white;
+  font-size: 20px;
+}
+
+.big-img .child-img .a:before {
+  content: '';
+  background: #FF4040;
+  opacity: 0.9;
+  bottom: 0;
+  left: 0;
+  width: 450px;
+  height: 250px;
+  position: absolute;
+  display: none;
+}
+
+.big-img .child-img .a:hover:before {
+  display: block;
+}
+
+.big-img .child-img .a:hover .text {
+  display: block;
+}
+
+.big-download {
+  height: 400px;
+  background: #333333;
+}
+
+.big-download .content-download .download {
+  color: white;
+  font-size: 20px;
+}
+
+.big-download .content-download .click-3 {
+  margin: 40px;
+}
+
+.big-download .content-download .click-3 .mini-click {
+  width: 200px;
+  height: 50px;
+  background: white;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 20px;
+}
+
+.big-download .content-download .click-3 .mini-click a {
+  color: black;
+  font-weight: bold;
+}
+
+.big-footer .footer .Get-in-touch {
+  position: relative;
+}
+
+.big-footer .footer .Get-in-touch h1 {
+  margin-top: 120px;
+  padding-bottom: 30px;
+}
+
+.big-footer .footer .Get-in-touch:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background: #FF4040;
+  height: 3px;
+  width: 50px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.big-content-footer .mini-footer {
+  text-align: center;
+  width: 700px;
+  margin-top: 30px;
+}
+
+.icon-footer {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.icon-footer .mini-icon-footer {
+  width: 700px;
+  text-align: center;
+}
+
+.icon-footer .mini-icon-footer i {
+  font-size: 50px;
+  padding: 20px;
+}
+
+.icon-footer .mini-icon-footer .bao p {
+  color: orange;
+}
+/*# sourceMappingURL=baitap6.css.map */

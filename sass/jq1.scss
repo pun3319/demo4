@@ -1,0 +1,136 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .title{
+        h1{
+            animation-name: run;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            margin: 40px;
+            font-size: 40px;
+            font-family: 'Baloo Bhai', cursive;
+        }
+    } 
+    .main{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left{
+            h2{
+                font-size: 30px;
+                font-family: 'Baloo Bhai', cursive; 
+            }
+            .icon{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                a{
+                    color: black;
+                    i{
+                        font-size: 50px;
+                        margin: 30px;
+                        transform: rotate(90deg);
+                    }
+                }
+            }
+        }
+        .right{
+            h2{
+                font-size: 30px;
+                font-family: 'Baloo Bhai', cursive; 
+            }
+            .icon{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                a{
+                    color: black;
+                    i{
+                        font-size: 50px;
+                        margin: 30px;
+                        transform: rotate(-90deg);
+                    }
+                }
+            }
+        }
+    }
+    .load{
+        p{
+                margin: 40px;
+                text-align: center;
+                font-size: 20px;
+                font-family: 'Baloo Bhai', cursive;
+                border: double black 2px;
+                padding: 10px; 
+        }
+    }
+    .ketqua{
+
+        position: relative;
+        .win{
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 200px;
+            height: 80px;
+            position: absolute;
+            p{
+                text-align: center;
+                margin: 20px;
+                font-size: 20px;
+                font-family: 'Baloo Bhai', cursive;
+                border: double black 2px;
+                padding: 10px;
+            }
+        }
+        .lose{
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            position: absolute;
+            width: 200px;
+            height: 80px;
+            p{
+                text-align: center;
+                margin: 20px;
+                font-size: 20px;
+                font-family: 'Baloo Bhai', cursive;
+                border: double black 2px;
+                padding: 10px;
+            }
+        }
+        .equal{
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            position: absolute;
+            width: 200px;
+            height: 80px;
+            p{
+                text-align: center;
+                margin: 20px;
+                font-size: 20px;
+                font-family: 'Baloo Bhai', cursive;
+                border: double black 2px;
+                padding: 10px;
+            }
+        }
+    }
+}
+@keyframes run{
+    0%{
+        transform: translateX(-300px);
+    }
+    50%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(-300px);
+    }
+}

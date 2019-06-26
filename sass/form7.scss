@@ -1,0 +1,154 @@
+.big{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://demo.w3layouts.com/demos_new/template_demo/14-12-2018/home_loan_application_form-demo_Free/301389745/web/images/1.jpg");
+    background-position: center center;
+    background-size: cover;
+    .container{
+        display: flex;
+        flex-direction: column;
+        .title{
+            margin: 50px;
+            h1{
+                font-size: 3.5em;
+                font-weight: 600;
+                color: white;
+                font-family: 'Poiret One', cursive;
+            }
+        }
+        .form{
+            form{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                z-index: 0;
+                padding: 50px;
+                label{
+                    color: white;
+                    input[type="text"],input[type="number"]{
+                        width: 400px;
+                        padding: 15px 20px;
+                        background: black;
+                        color: white;
+                        float: right;
+                        border: 1px #00FFCC solid;
+                    }
+                    input::-webkit-input-placeholder{
+                        color: white;
+                        letter-spacing: 2px;
+                    }
+                    margin: 5px;
+                    select{
+                        width: 400px;
+                        padding: 15px 20px;
+                        background: black;
+                        color: white;
+                        float: right;
+                        border: 1px #00FFCC solid;
+                        &:focus{
+                            color: #00FFCC;
+                        }
+                    }
+                    select::-webkit-input-placeholder{
+                        color: white;
+                        letter-spacing: 2px;
+                    }
+                }
+                &:before{
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    background: black;
+                    opacity: 0.2;
+                    left: 0;
+                    top: 0;
+                    position: absolute;
+                    z-index: -1;
+                }
+                .add{
+                    label{
+                        margin-top: 10px;
+                        color: white;
+                        display: flex;
+                        .mini{
+                            display: flex;
+                            flex-direction: column;
+                            margin-left: 130px;
+                            input{
+                                margin-top: 5px;
+                                margin-bottom: 5px;
+                            }
+                        }
+                    }
+                }
+                .foot{
+                    margin: 20px 0;
+                    p{
+                        color: white;
+                        font-weight: bold;
+                    }
+                }
+                .radio{
+                    display: flex;
+                    flex-direction: column;
+                    input{
+                        position: relative;
+                        &:after{
+                            content: '';
+                            width: 100%;
+                            height: 100%;
+                            background: #00FFCC;
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            border-radius: 50%;
+                            transform: translate(-50%,-50%);
+                            z-index: 10;
+                        }
+                        &:before{
+                            content: '';
+                            width: 50%;
+                            height: 50%;
+                            background: black;
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            border-radius: 50%;
+                            transform: translate(-50%,-50%);
+                            z-index: 1;
+                        }
+                        &:checked{
+                            &:before{
+                                z-index: 100;
+                            }
+                        }
+                    }
+                }
+                .button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    button{
+                        padding: 15px 28px;
+                        background: #00FFCC;
+                        color: white;
+                        font-weight: bold;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .footer{
+            margin: 20px 0 40px 0;
+            text-align: center;
+            letter-spacing: 2px;
+            p{
+                color: white;
+                a{
+                    color: #00FFFF;
+                }
+            }
+        }
+    }
+}

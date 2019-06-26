@@ -1,0 +1,52 @@
+.container .big-img .img {
+  width: 1200px;
+}
+
+.container .big-img .img .row-img .mini-img {
+  position: relative;
+  height: 300px;
+}
+
+.container .big-img .img .row-img .mini-img:hover .caption {
+  display: block;
+}
+
+.container .big-img .img .row-img .mini-img:hover a:after {
+  height: 100px;
+}
+
+.container .big-img .img .row-img .mini-img:hover img {
+  -webkit-transform: scaleY(0.8) translateY(-12.5%);
+          transform: scaleY(0.8) translateY(-12.5%);
+}
+
+.container .big-img .img .row-img .mini-img a img {
+  padding: 0;
+  margin: 0;
+}
+
+.container .big-img .img .row-img .mini-img a:after {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  background: #D02090;
+  opacity: 0.9;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.container .big-img .img .row-img .mini-img .caption {
+  width: 400px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  display: none;
+}
+/*# sourceMappingURL=pro3css3.css.map */
